@@ -1,7 +1,7 @@
 {
-  "name": "com.firsttry.assetloader",
+  "name": "com.firsttry.globalmessage",
   "version": "1.0.0",
-  "displayName": "Asset Loader",
+  "displayName": "Global Message",
   "unity": "2022.1",
   "dependencies": {
     "com.kyrylokuzyk.primetween": "1.2.2",
