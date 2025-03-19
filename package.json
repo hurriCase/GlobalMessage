@@ -1,0 +1,10 @@
+{
+  "name": "com.firsttry.assetloader",
+  "version": "1.0.0",
+  "displayName": "Asset Loader",
+  "unity": "2022.1",
+  "dependencies": {
+    "com.kyrylokuzyk.primetween": "1.2.2",
+    "com.unity.textmeshpro": "3.0.6"
+  }
+}
