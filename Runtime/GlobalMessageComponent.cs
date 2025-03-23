@@ -30,12 +30,15 @@ namespace GlobalMessage.Runtime
             _canvasGroup.blocksRaycasts = false;
         }
 
-        public void ShowMessage(string message)
+        public void ShowMessage(string message, TMP_FontAsset fontData = null)
         {
             _canvasGroup.interactable = true;
             _canvasGroup.blocksRaycasts = true;
 
             _messageText.SetText(message);
+
+            if (fontData)
+                _messageText.font = fontData;
 
             _tween.Stop();
 
